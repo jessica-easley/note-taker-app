@@ -10,6 +10,10 @@ const app = express();
 // Port
 const PORT = process.env.PORT || 3001
 
+// UUID Code
+// const userId=v4();
+// console.log(userId); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'
+
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
