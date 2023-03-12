@@ -1,7 +1,7 @@
 # Express.js Challenge: Note Taker App
 This application can be used to create and save notes. It uses an Express.js back end and will save and retrieve note data from a JSON file. This application is deployed to Heroku.
 
-# View depployed Heroku App Here: 
+# View depployed Heroku App Here: https://peaceful-stream-29942.herokuapp.com/
 
 # User Story
 AS A small business owner
