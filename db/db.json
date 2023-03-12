@@ -1,12 +1,27 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text",
-        "id": "47"
+        "title": "Team Lunch",
+        "text": "Thursday at 12:30",
+        "id": "1"
     },
     {
-        "title": "Note 3",
-        "text": "blah blah blah",
-        "id": 2
+        "title": "Pickup Drycleaning",
+        "text": "Pickup before 6:00",
+        "id": "45f605ac-5e99-4041-b0c3-5564c95e7671"
+    },
+    {
+        "title": "Dentist Cleaning",
+        "text": "Tuesday at 11:30",
+        "id": "7126775f-0e35-46d7-a00d-49c3af60e90a"
+    },
+    {
+        "title": "Deposit Check",
+        "text": "Go to bank Monday morning",
+        "id": "adefa628-a915-4f50-9e9f-9c36db392284"
+    },
+    {
+        "title": "Call Vet ",
+        "text": "Schedule an exam",
+        "id": "fd9329a5-8701-4b43-8c3e-f1efc7a59939"
     }
 ]
