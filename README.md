@@ -1,6 +1,8 @@
 # Express.js Challenge: Note Taker App
 This application can be used to create and save notes. It uses an Express.js back end and will save and retrieve note data from a JSON file. This application is deployed to Heroku.
 
+# View depployed Heroku App Here: 
+
 # User Story
 AS A small business owner
 I WANT to be able to write and save notes
@@ -26,6 +28,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 * Express.js
 * HTML
 * CSS
+* UUID
 * Heroku for deployment
 
 # Application Mock-Up/Screenshots
@@ -36,6 +39,3 @@ Homepage:
 ![Notes List 1](images/Notes-List-1.png)
 
 ![Notes List 2](images/Notes-List-2.png)
-
-# Installation & Usage
-Open project in VS Code. Then open a terminal, and run 'Npm install' in the command line. Next, run 'npm install uuid'. Then run 'npm start'. Open link in browser, and click "get started" button to begin using the application.
