@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const htmlRoutes = require('./routes/htmlRoutes');
 const path = require('path');
-// const { v4 } = require('uuid');
+const { v4: uuidv4 } = require('uuid');
 // const apiRoutes = require('./routes/apiRoutes');
 const app = express();
 
@@ -42,7 +42,8 @@ app.post('/api/notes', (req, res) => {
       const parsedData = JSON.parse(data);
       // console.log(req.body);
       // add uuid stuff here for unique ids
-      req.body.id = parsedData.length + 1
+      req.body.id = uuidv4();
+      // req.body.id = parsedData.length + 1
       parsedData.push(req.body);
       // writeToFile(file, parsedData);
       console.log(parsedData);
